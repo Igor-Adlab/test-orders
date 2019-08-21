@@ -1,0 +1,78 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Bootstrap
+@import '~antd/dist/antd.min.css';
+
+body, #application, .application-layout, .application-content {
+    min-height: 100vh;
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.column-actions, .content-column {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.application-input-number {
+    width: 100%;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.order-item, .orders-filter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.order-item .item-selector,
+.order-item .calculated-item {
+    flex-grow: 1;
+}
+
+.ant-input-number {
+    width: 100%;
+}
+
+.calculated-item {
+    text-align: right;
+}
+
+.calculated-item p {
+    line-height: 1.2em;
+}
+
+.remove-btn {
+    color: #ff3a00;
+}
+
+.float-right {
+    float: right;
+}
+
+.thin-divider {
+    margin: 10px 0;
+}
